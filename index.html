@@ -1698,12 +1698,6 @@
       modal.onclick = function() {
         modal.style.display = "none";
       }
-      
-      // Prevent the event from bubbling up when clicking inside the modal content
-      var modalContent = document.querySelector(".modal-content");
-      modalContent.onclick = function(event) {
-        event.stopPropagation();
-      }
     </script>
   </body>
 </html>
